@@ -1,282 +1,124 @@
-<!DOCTYPE html>
-<html lang="ru" >
+<!DOCTYPE HTML>
+<html>
 <head>
-<meta charset="UTF-8">
-<title>Zvezdograd Studio</title>
-<style type="text/css">
-a{
-color: #fff;
-text-decoration: none;
-}
-html{
-background: #FFF8CC;
-min-height: 100%;
-font-family: Helvetica;
-display: flex;
-flex-direction: column;
-}
-body{
-margin: 0;
-padding: 0 15px;
-display: flex;
-flex-direction: column;
-flex: auto;
-}
-h1{
-margin-top: 0;
-}
-h1, p{
-color: #006064;
-}
-img{
-border: 0;
-}
-.header{
-width: 100%;
-min-width: 460px;
-max-width: 960px;
-margin: 0 auto 30px;
-padding: 30px 0 10px;
-display: flex;
-flex-wrap: wrap;
-justify-content: space-between;
-box-sizing: border-box;
-}
-.logo{
-font-size: 1.5rem;
-color: #fff;
-text-decoration: none;
-margin: 5px 0 0 5px;
-justify-content: center;
-align-items: center;
-display: flex;
-flex: none;
-align-items: center;
-background: #839FFF;
-width: 130px;
-height: 50px;
-}
-.nav{
-margin: -5px 0 0 -5px;
-display: flex;
-flex-wrap: wrap;
-}
-.nav-item{
-background: #BDC7FF;
-width: 130px;
-height: 50px;
-font-size: 1.5rem;
-color: #fff;
-text-decoration: none;
-display: flex;
-margin: 5px 0 0 5px;
-justify-content: center;
-align-items: center;
-}
-.sqr{
-height: 300px;
-width: 300px;
-background: #FFDB89;
-}
-
-.main{
-width: 100%;
-min-width: 460px;
-max-width: 960px;
-margin: auto;
-flex: auto;
-box-sizing: border-box;
-}
-.box{
-font-size: 1.25rem;
-line-height: 1.5;
-margin: 0 0 40px -50px;
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-}
-.box-base{
-margin-left: 50px;
-flex: 1 0 430px;
-}
-.box-side{
-margin-left: 50px;
-font: none;
-}
-.box-img{
-max-width: 100%;
-height: auto;
-}
-.content{
-margin-bottom: 30px;
-display: flex;
-flex-wrap: wrap;
-}
-.banners{
-flex: 1 1 200px;
-}
-.banner{
-background: #FFDB89;
-width: 100%;
-min-width: 100px;
-min-height: 200px;
-font-size: 3rem;
-color: #fff;
-margin: 0 0 30px 0;
-display: flex;
-justify-content: center;
-align-items: center;
-}
-.posts{
-margin: 0 0 30px 30px;
-flex: 1 1 200px;
-}
-.comments{
-margin: 0 0 30px 30px;
-flex: 1 1 200px;
-}
-.comment{
-display: flex;
-}
-.comment-side{
-padding-right: 20px;
-flex: none;
-}
-.comment-base{
-flex: auto;
-}
-.comment-avatar{
-background: #FFA985;
-width: 50px;
-height: 50px;
-}
-.footer{
-background: #FF3366;
-width: 100%;
-max-width: 960px;
-min-width: 460px;
-color: #fff;
-margin: auto;
-padding: 15px;
-box-sizing: border-box;
-}
-
-@media screen and  (max-width: 800px) {
-.banners{
-margin-left: -30px;
-display: flex;
-flex-basis: 100%;
-}
-.banner{
-margin-left: 30px;
-}
-.posts{
-margin-left: 0;
-}
-}
-@media screen and  (max-width: 600px) {
-.content{
-display: block;
-}
-.banners{
-margin: 0;
-display: block;
-}
-.banner{
-margin-left: 0;
-}
-.posts{
-margin: 0;
-}
-}
-</style>
+    <!-- <meta http-equiv="X-UA-Compatible" content="IE=edge"> -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="shortcut icon" href="favicon.ico">
+    <title>Шаблон сайта Landing Page</title>
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <link rel="apple-touch-icon" href="images/touch/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="images/touch/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="images/touch/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="images/touch/apple-touch-icon-144x144.png">
+    <link rel="stylesheet" href="css/style.css">
+    <!--[if lt IE 9]>
+        <script src="js/html5.js"></script>
+        <script src="js/respond.js"></script>
+    <![endif]-->
 </head>
-<body>
-<header class="header">
-<a class="logo">
-LOGO
-</a>
-<nav class="nav">
-<a href="#posts" class="nav-item">Инфо</a>
-<a href="#comments" class="nav-item">Комменты</a>
-<a href="#footer" class="nav-item">Контакты</a>
-<a href="#posts" class="nav-item">Посты</a>
-</nav>
+<body class="no-js">
+    <div class="main">
+        <header>
+            <div class="wrap">
+                <img src="upload/iphone1.png" height="532" width="252" alt="" class="header-img">
+                <div class="header-wrapper">
+                    <h1>Добро пожаловать <span>на сайт </span> "Zvezdograd Studio"</h1>
+                    <p>Мы создаём полезные мобильные приложения</p>
+                    <div class="buttons-wrapper">                        
+                    </div>
+                </div>
+                <!-- /.header-wrapper -->
+            </div>
+            <!-- /.wrap -->
+        </header>
+        
+            <div class="discover clearfix">
+                <div class="wrap">
+                    <div class="discover-content clearfix">
+                        <h2>Sam Sebe Slovarik</h2>
+                        <p>Все, кто когда-либо учил иностранный язык, понимает, что пополнение словарного запаса – одна из самых важных задач в процессе обучения. Как правило, для этого заводят тетрадь-словарь. Sam Sebe Slovarik - та же тетрадь в мобильном телефоне, только с расширенным набором функций.</p>
+                        <div class="discover-button clearfix">
+                            <a href="https://apps.apple.com/ru/app/%D1%81%D0%B0%D0%BC-%D1%81%D0%B5%D0%B1%D0%B5-%D1%81%D0%BB%D0%BE%D0%B2%D0%B0%D1%80%D0%B8%D0%BA/id1532944363" class="button button-download">
+                                <span class="button-download-title">Download for</span>
+                                <span class="button-download-subtitle">Apple iOS</span>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.ZvezdogradStudio.SamSebeSlovarik" class="button button-download android">
+                                <span class="button-download-title">Download for</span>
+                                <span class="button-download-subtitle">Android</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="discover-img">
+                        <div class="discover-img-inside"><img src="upload/discover1.png" height="486" width="634" alt=""></div>
+                    </div>
+                </div>
+                <!-- /.wrap -->
+            </div>
 
-</header>
-<main class="main">
-<div class="box">
-<div class="box-base">
-<h1>Zvezdograd Studio</h1>
-<p>Разработка мобильных приложений</p>
-</div>
-<div class="box-side">
-<div class="sqr">
+            <div class="discover clearfix">
+                <div class="wrap">
+                    <div class="discover-content clearfix">
+                        <h2>Norsk-Russisk Pugghest</h2>
+                        <p>Изучаете норвежский язык и хотите уверенно владеть необходимым словарным запасом? Тогда это приложение для Вас. "Norsk-Russik Pugghest" содержит более 5700 слов и выражений, распределённых в темы: семья, еда, жильё, внешность, одежда, транспорт и путешествия, досуг, природа и экология, животные, растения, черты характера и чувства, работа, анатомия, здоровье. Каждая тема, в свою очередь, содержит несколько подтем.</p>
+                        <div class="discover-button clearfix">
+                            <a href="https://apps.apple.com/no/app/norsk-russisk-pugghest/id1536117683" class="button button-download">
+                                <span class="button-download-title">Download for</span>
+                                <span class="button-download-subtitle">Apple iOS</span>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.ZvezdogradStudio.NorskRussiskPugghest" class="button button-download android">
+                                <span class="button-download-title">Download for</span>
+                                <span class="button-download-subtitle">Android</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="discover-img">
+                        <div class="discover-img-inside"><img src="upload/discover2.png" height="486" width="634" alt=""></div>
+                    </div>
+                </div>
+                <!-- /.wrap -->
+            </div>
 
-</div>
-</div>
-</div>
-<div class="content">
-<div class="banners">
-<div class="banner"></div>
-<div class="banner"></div>
-<div class="banner"></div>
-</div>
-<div class="posts"  id="posts">
-<div class="post">
-<h1>Сам Себе Словарик</h1>
-<p>Все, кто когда-либо учил иностранный язык, понимает, что пополнение словарного запаса – одна из самых важных задач в процессе обучения. 
-    Приложение "Сам Себе Словарик" позволяет сформировать собственный словарь иностранных слов, сгруппированных в темы и подтемы и выполнять упражнения с ними, что очень важно для запоминания слов и формирования активного словарного запаса.</p>
-</div>
-<div class="post">
-<h1>Norsk-Russisk Pugghest</h1>
-<p>Изучаете норвежский язык и хотите уверенно владеть необходимым словарным запасом? Попробуйте приложение "Norsk-Russik Pugghest"! Приложение содержит более 5500 слов и выражений, распределённых в темы: семья, еда,  жильё, внешность, одежда, транспорт и путешествия, досуг, природа и экология, животные, растения, черты характера и чувства, работа,  анатомия, здоровье. Каждая тема, в свою очередь, содержит несколько подтем.
-Приложение предоставляет возможность выполнять упражнения со словами и выражениями, что очень важно для запоминания слов и формирования активного словарного запаса. </p>
-</div>
-<div class="post">
-<h1>Shadowgraph</h1>
-<p>Приложение "Shadowgraph - игры теней" - наглядное пособие для создания живых теней в режиме реального времени! Попробуйте перед сном ;) Фонарик прилагается))</p>
-</div>
-</div>
-<div class="comments"  id="comments">
-<div class="comment">
-<div class="comment-side">
-<div class="comment-avatar">
+            
 
-</div>
-</div>
-<div class="comment-base">
-<h1 class="comment-title"></h1>
-<p></p>
-</div>
-</div>
-<div class="comment">
-<div class="comment-side">
-<div class="comment-avatar">
+            <div class="discover clearfix">
+                <div class="wrap">
+                    <div class="discover-content clearfix">
+                        <h2>Shadowgraph</h2>
+                        <p>Искусство, известное людям с древнейших времён, до сих пор является актуальным, ведь для его представления не нужно ничего лишнего - только свет и тьма... Смартфон с приложением "Shadowgraph - игры теней" будет лишь Вашим помощником и наглядным пособием для создания живых теней в режиме реального времени.</p>
+                        <div class="discover-button clearfix">
+                            <a href="https://apps.apple.com/ru/app/shadowgraph-%D0%B8%D0%B3%D1%80%D1%8B-%D1%82%D0%B5%D0%BD%D0%B5%D0%B9/id1558159661" class="button button-download">
+                                <span class="button-download-title">Download for</span>
+                                <span class="button-download-subtitle">Apple iOS</span>
+                            </a>
+                            <a href="https://play.google.com/store/apps/details?id=com.ZvezdogradStudio.Shadowgraph" class="button button-download android">
+                                <span class="button-download-title">Download for</span>
+                                <span class="button-download-subtitle">Android</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="discover-img">
+                        <div class="discover-img-inside"><img src="upload/discover3.png" height="486" width="634" alt=""></div>
+                    </div>
+                </div>
+                <!-- /.wrap -->
+            </div>
+            <!-- /.discover clearfix -->
 
-</div>
-</div>
-<div class="comment-base">
-<h1 class="comment-title"></h1>
-<p></p>
-</div>
-</div>
-<div class="comment">
-<div class="comment-side">
-<div class="comment-avatar">
+            
 
-</div>
-</div>
-<div class="comment-base">
-<h1 class="comment-title"></h1>
-<p></p>
-</div>
-</div>
-</div>
-</div>
-</main>
-<footer class="footer"  id="footer">
-https://vk.com/zvezdograd.studio, https://vk.com/norsk.russisk.pugghest
-</footer>
+            
+    <!-- /.main -->
+    <footer>
+        <div class="wrap">
+            <p>&copy; 2022 <strong>Zvezdograd Studio</strong>, Все права защищены | <a href="http://bayguzin.ru">zvezdograd.studio@gmail.com</a></p>
+        </div>
+        <!-- /.wrap -->
+    </footer>
+    <script src="js/jquery.js"></script>
+    <script src="js/library.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/retina.js"></script>
 </body>
 </html>
